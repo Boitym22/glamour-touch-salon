@@ -364,7 +364,7 @@ CSS was used to create a consistent visual identity and layout across the websit
 
 ---
 
-# 24. External Stylesheet
+ 24. External Stylesheet
 
 An external stylesheet named `style.css` was created inside the `css` folder.
 
