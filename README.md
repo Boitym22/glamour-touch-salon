@@ -351,8 +351,374 @@ The content will be reviewed and updated by the salon before the website is laun
 References
 MMOWW (n.d.) Salon website design best practices. Available at: (Accessed: 14 August 2026).
 Sandton Aesthetic Studio (n.d.) Services. Available at: (Accessed: 14 August 2026).
+
+Part 2 focuses on improving the visual appearance and usability of the Glamour Touch Salon & Makeup Studio website through CSS styling and responsive design.
+
+An external CSS stylesheet was created and linked to the HTML pages.
+
+The stylesheet is located at:
+
+`css/style.css`
+
+CSS was used to create a consistent visual identity and layout across the website.
+
+---
+
+# 24. External Stylesheet
+
+An external stylesheet named `style.css` was created inside the `css` folder.
+
+The stylesheet is linked to the HTML pages using:
+
+```html
+<link rel="stylesheet" href="css/style.css">
 Sandton Hair (n.d.) Sandton Hair Salon. Available at: (Accessed: 14 August 2026).
 Wix (n.d.) How to create a salon website. Available at: (Accessed: 14 August 2026).
 Zenoti (n.d.) Salon website design. Available at: (Accessed: 14 August 2026).
+25. CSS Reset and Base Styling
 
+A CSS reset was implemented to remove default browser margins and padding and to provide more consistent styling.
 
+Base styles were applied to:
+
+Body
+Headings
+Paragraphs
+Links
+Images
+Buttons
+Forms
+
+The box-sizing property was also used to make element sizing easier to control.
+
+26. Typography
+
+Typography was applied consistently throughout the website.
+
+Heading Font
+
+Poppins was selected for headings to create a modern and elegant appearance.
+
+Body Font
+
+Arial was selected for the main body text to maintain readability.
+
+CSS properties used for typography include:
+
+font-family
+font-size
+font-weight
+line-height
+letter-spacing
+
+Different font sizes and weights were used to create a clear hierarchy between headings, subheadings, and body text.
+
+27. Colour Scheme
+
+The website follows the colour scheme established during Part 1.
+
+The main colours are:
+
+Blush Pink
+Rose Gold
+White
+Black
+
+These colours were selected to create a modern, elegant, welcoming, and professional beauty-salon appearance.
+
+CSS variables were used where appropriate to maintain consistency between pages.
+
+28. Website Layout
+
+CSS layout techniques were used to organise the website content.
+
+The website layout includes:
+
+Header
+Navigation
+Hero section
+Main content
+Service sections
+Gallery
+Booking form
+Contact section
+Footer
+
+Flexbox and other CSS layout properties were used where appropriate to align and organise content.
+
+29. Visual Styling
+
+Visual styling was applied to website elements using CSS properties such as:
+
+color
+background-color
+border
+border-radius
+box-shadow
+padding
+margin
+
+Interactive elements were also styled using pseudo-classes.
+
+These included:
+
+:hover
+:focus
+:active
+
+Hover effects provide visual feedback when users interact with navigation links and buttons.
+
+30. Responsive Design
+
+Responsive design was implemented to ensure that the website can be viewed on different devices.
+
+The website was designed and tested for:
+
+Desktop
+Tablet
+Mobile
+
+Media queries were used to adjust the website layout according to the screen size.
+
+Responsive styling was applied to:
+
+Navigation
+Font sizes
+Content widths
+Images
+Spacing
+Forms
+Sections
+31. Responsive Breakpoints
+
+The website uses different layouts for different screen sizes.
+
+Desktop
+
+The desktop layout provides a wider content area and supports multi-column sections where appropriate.
+
+Tablet
+
+A breakpoint of approximately 768px was used for tablet-sized screens.
+
+The layout, spacing, navigation, and content widths are adjusted to fit the smaller screen.
+
+Mobile
+
+A breakpoint of approximately 480px was used for mobile devices.
+
+At this breakpoint:
+
+Navigation is adjusted for smaller screens.
+Font sizes are reduced where necessary.
+Content uses more of the available screen width.
+Images resize to fit the screen.
+Sections are adjusted to prevent horizontal scrolling.
+32. Relative Units
+
+Relative sizing was used where appropriate to improve responsiveness.
+
+The website uses values such as:
+
+%
+rem
+em
+
+These units allow elements such as fonts, spacing, and containers to adjust more effectively across different screen sizes.
+
+33. Responsive Images
+
+CSS was used to ensure that website images remain responsive.
+
+Images are prevented from becoming wider than their containers and are allowed to resize according to the available screen width.
+
+The responsive image styling helps prevent images from causing horizontal scrolling on smaller devices.
+
+Where appropriate, responsive image techniques such as srcset, sizes, and the picture element can be used to provide suitable image sizes for different devices.
+
+34. Browser Developer Tools Testing
+
+Browser Developer Tools were used to test the website at different screen sizes.
+
+The website was tested using responsive device mode.
+
+Desktop Testing
+
+The website was tested at a desktop screen size to check:
+
+Overall layout
+Navigation
+Images
+Text
+Buttons
+Page structure
+Tablet Testing
+
+The website was tested at approximately:
+
+768 × 1024
+
+The tablet view was checked to ensure that the content remained readable and usable.
+
+Mobile Testing
+
+The website was tested at approximately:
+
+375 × 667
+
+The mobile view was checked to ensure that:
+
+Navigation remained usable.
+Text remained readable.
+Images fitted within the screen.
+Buttons remained accessible.
+Forms fitted within the screen.
+Horizontal scrolling was avoided.
+
+Screenshots were taken as evidence of the desktop, tablet, and mobile testing.
+
+35. Part 2 Testing Results
+
+The following website elements were tested:
+
+Navigation
+Links
+Images
+Headings
+Paragraphs
+Buttons
+Forms
+Services
+Gallery
+Footer
+Responsive behaviour
+
+The website was checked at different screen sizes to identify layout and styling problems.
+
+CSS and media-query adjustments were made where necessary to improve the website's responsiveness and usability.
+
+36. Part 2 Changelog
+Part 1 Corrections
+Reviewed the website based on feedback received for Part 1.
+Corrected identified content and layout issues.
+Updated website content where necessary.
+Checked navigation links between website pages.
+Improved consistency of information across the website.
+Part 2 Updates
+Created an external style.css stylesheet inside the css folder.
+Linked the external stylesheet to the HTML pages.
+Added CSS reset and base styling.
+Applied consistent typography throughout the website.
+Applied the Glamour Touch colour scheme.
+Styled the navigation and links.
+Added hover effects to interactive elements.
+Improved the spacing and alignment of website sections.
+Styled buttons, images, forms, and content elements.
+Added responsive media queries.
+Created tablet and mobile layouts.
+Adjusted navigation for smaller screens.
+Adjusted font sizes for smaller devices.
+Made website images responsive.
+Tested the website using browser Developer Tools.
+Tested desktop, tablet, and mobile screen sizes.
+Corrected responsive layout issues identified during testing.
+37. Technologies Used
+
+The following technologies and tools were used to develop the website:
+
+HTML5
+CSS3
+JavaScript
+Visual Studio Code
+GitHub
+Browser Developer Tools
+
+HTML5 was used to structure the website.
+
+CSS3 was used for styling, layout, typography, colours, visual effects, and responsive design.
+
+JavaScript was used for website functionality and interaction.
+
+Visual Studio Code was used as the development environment.
+
+GitHub was used for version control and repository management.
+
+38. Website Testing
+
+The website was tested to ensure that the pages and features work correctly.
+
+Testing included:
+
+Navigation links
+Page links
+Images
+Buttons
+Booking form
+Contact form
+Responsive layout
+Mobile layout
+Tablet layout
+Desktop layout
+Text readability
+Image responsiveness
+
+The website was tested using browser Developer Tools to simulate different device sizes.
+
+39. GitHub Repository
+
+The project is stored in a GitHub repository.
+
+The repository contains:
+
+HTML files
+CSS stylesheet
+JavaScript files
+Images
+README documentation
+
+Changes to the project are committed regularly with descriptive commit messages.
+
+The final project is pushed to the remote GitHub repository for submission.
+
+GitHub Repository Link
+
+[Insert your GitHub repository link here]
+
+40. Part 2 Conclusion
+
+Part 2 improved the visual appearance and usability of the Glamour Touch Salon & Makeup Studio website through CSS styling and responsive design.
+
+An external stylesheet was used to provide consistent styling across the website pages.
+
+The website was also adjusted for desktop, tablet, and mobile screen sizes using responsive CSS and media queries.
+
+Browser Developer Tools were used to test the website at different screen sizes, and screenshots were taken as evidence of the responsive testing.
+
+The completed website provides a consistent visual identity while allowing users to access the salon's information across different devices.
+
+References
+
+MMOWW (n.d.) Salon website design best practices. Available at:
+https://mmoww.net/shampoo/library/salon-website-design-best-practices/en/
+
+(Accessed: 18 September 2026).
+
+Sandton Aesthetic Studio (n.d.) Services. Available at:
+https://sandtonaestheticstudio.co.za/services/
+
+(Accessed: 18 September 2026).
+
+Sandton Hair (n.d.) Sandton Hair Salon. Available at:
+https://sandtonhairsalon.com/
+
+(Accessed: 18 September 2026).
+
+Wix (n.d.) How to create a salon website. Available at:
+https://www.wix.com/blog/create-salon-website
+
+(Accessed: 18 September 2026).
+
+Zenoti (n.d.) Salon website design. Available at:
+https://www.zenoti.com/salon-website-design
+
+(Accessed: 18 September 2026).
